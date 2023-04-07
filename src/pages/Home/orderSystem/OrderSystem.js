@@ -9,8 +9,8 @@ const OrderSystem = () => {
             <div className='flex justify-evenly py-5'>
                 <img className='h-40 w-40' src={box4} alt="" />
                 <div className='text-center'>
-                    <h3 className='text-2xl mb-5'>Order Now</h3>
-                    <h1 className='text-5xl font-bold mb-5'>Our Garden Collections</h1>
+                    <h3 className='text-2xl mb-5 font-semibold'>Order Now</h3>
+                    <h1 className='text-5xl font-bold mb-5'>Our Products Collections</h1>
                     <p className='mb-5'>Blossoms live in every color and aroma.
                         Beautifully share your emotions with our garden flowers.
                     </p>

@@ -7,7 +7,7 @@ import box3 from '../../../assets/box3.jpg';
 const ItemBanner = () => {
     return (
         <div>
-            <div className="hero bg-white text-black py-[50px]">
+            <div className="hero bg-white text-black py-[70px]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className='grid grid-cols-2 gap-4'>
                         <div className=' flex flex-col gap-4'>
