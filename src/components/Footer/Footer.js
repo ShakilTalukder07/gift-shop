@@ -29,9 +29,9 @@ const Footer = () => {
                             <div className='mt-4'>
                                 <h4 className="text-2xl capitalize mb-4 font-semibold">connect with event</h4>
                                 <ul className='navbar gap-3'>
-                                    <li> <a href="https://www.facebook.com" target="_blank" ><FaFacebook size={24} /></a> </li>
-                                    <li> <a href="https://www.instagram.com" target="_blank" > <FaInstagram size={24} /> </a> </li>
-                                    <li> <a href="https://twitter.com" target='_blank' ><FaTwitter size={24} /></a> </li>
+                                    <li> <Link to="https://www.facebook.com" target="_blank" ><FaFacebook size={24} /></Link> </li>
+                                    <li> <Link to="https://www.instagram.com" target="_blank" > <FaInstagram size={24} /> </Link> </li>
+                                    <li> <Link to="https://twitter.com" target='_blank' ><FaTwitter size={24} /></Link> </li>
                                 </ul>
                                 <p className='text-xs mt-3'>Copyright &copy; 2023 event.</p>
                             </div>
@@ -86,9 +86,8 @@ const Footer = () => {
                             <div className='mt-4'>
                                 <div className="flex items-center gap-6">
                                     <img src="https://i.ibb.co/khpBckc/f67.png" alt="" className='h-16 w-16' />
-                                    <h4 className="text-2xl font-bold"> <span className='text-[#0EA5E9]'>Event</span>Mart</h4>
+                                    <h4 className="text-2xl font-bold"> <span className='text-[#0EA5E9]'>Gift</span>Shop</h4>
                                 </div>
-                                <p id="google_translate_element" className='text-sm mt-3 text-justify'></p>
                             </div>
                         </div>
                     </div>
