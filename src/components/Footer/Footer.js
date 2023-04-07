@@ -4,8 +4,8 @@ import { FaEnvelope, FaFacebook, FaInstagram, FaMapMarkerAlt, FaPhone, FaTwitter
 
 const Footer = () => {
     return (
-        <footer className=''>
-            <div className='py-7  bg-[#0e0943] text-white'>
+        <footer>
+            <div className='py-7 px-5 bg-[#ECACAB] text-black'>
                 <div className="max-w-screen-xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-4 lg:px-0 gap-6 items-baseline justify-between ">
                         <div>
@@ -14,7 +14,7 @@ const Footer = () => {
                                 <div className='space-y-3 text-sm lg:text-md'>
                                     <div className="flex items-center gap-3">
                                         <FaMapMarkerAlt size={20} />
-                                        <span>mirsarai, chittagong</span>
+                                        <span>Mohammadpur, Dhaka</span>
                                     </div>
                                     <div className="flex items-center gap-3">
                                         <FaEnvelope size={20} />
@@ -22,7 +22,7 @@ const Footer = () => {
                                     </div>
                                     <div className="flex items-center gap-3">
                                         <FaPhone size={20} />
-                                        <span>+8801234567891</span>
+                                        <span>+880168*******</span>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className=''>
-                            <h4 className="text-2xl capitalize mb-4 font-semibold">event venues</h4>
+                            <h4 className="text-2xl capitalize mb-4 font-semibold">Shop Branches</h4>
                             <ul>
                                 <li>
                                     InterContinental Dhaka
@@ -54,7 +54,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-2xl capitalize mb-4 font-semibold">recent event</h4>
+                            <h4 className="text-2xl capitalize mb-4 font-semibold">recent participation on event</h4>
                             <div className="space-y-3">
                                 <div className='flex items-center gap-3'>
                                     <figure>
@@ -62,7 +62,7 @@ const Footer = () => {
                                     </figure>
                                     <div>
                                         <p className=' capitalize'>wedding event</p>
-                                        <p>22 Oct 2022</p>
+                                        <p>01 April 2023</p>
                                     </div>
                                 </div>
                                 <div className='flex items-center gap-3'>
@@ -70,16 +70,16 @@ const Footer = () => {
                                         <img src="https://img.freepik.com/free-photo/beautiful-pink-decorated-wedding-serving-with-centerpiece-lightening-candles_8353-10052.jpg?w=740&t=st=1673432788~exp=1673433388~hmac=25afa30b5b45cd3c32351308d29aaae2ecd3989aa1f24ce16558d1444210be1a" alt="" className='w-20 h-20 rounded-md' />
                                     </figure>
                                     <div>
-                                        <p className=' capitalize'>wedding event</p>
-                                        <p>22 Oct 2022</p>
+                                        <p className=' capitalize'>Birthday event</p>
+                                        <p>03 April 2023</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className='capitalize'>
-                            <h4 className="text-2xl  mb-4 font-semibold">customar service</h4>
+                            <h4 className="text-2xl  mb-4 font-semibold">Customer service</h4>
                             <ul>
-                                <li> <Link href='/'>customar services</Link> </li>
+                                <li> <Link href='/'>Customer services</Link> </li>
                                 <li> <Link href='/'>terms & conditions</Link> </li>
                                 <li> <Link href='/'>FAQs</Link> </li>
                             </ul>

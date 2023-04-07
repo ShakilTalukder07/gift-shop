@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <div>
-            <div className="hero bg-[#ECACAB]">
+            <div className="hero bg-[#ECACAB] pb-[50px]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img className='w-full md:w-1/2 lg:w-1/2 h-full' src={giftBox} alt=''/>
                     <div className='w-full md:w-1/2 lg:w-1/2'>
