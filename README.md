@@ -1,6 +1,6 @@
 # Live Site
 
-Love Site [https://mydesiregiftshop.netlify.app/](https://mydesiregiftshop.netlify.app/)
+Live Site [https://mydesiregiftshop.netlify.app/](https://mydesiregiftshop.netlify.app/)
 
 
 
