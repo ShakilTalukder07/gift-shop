@@ -6,13 +6,13 @@ const SideNav = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/productCategory")
+        fetch("https://gift-shop-server.vercel.app/productCategory")
             .then((res) => res.json())
             .then((data) => setCategories(data));
     }, []);
 
     // console.log(categories);
-    
+
     return (
         <div className='mx-10'>
             <h1 className="text-2xl my-7 underline">Category</h1>
