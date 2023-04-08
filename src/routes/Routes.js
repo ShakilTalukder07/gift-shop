@@ -33,14 +33,15 @@ export const router = createBrowserRouter([
         element: <ProductLayout></ProductLayout>,
         errorElement: <ErrorElement></ErrorElement>,
         children: [
+            // {
+            //     path: "/products",
+            //     element: <AboutUs></AboutUs>,
+            // },
             {
-                path: "category/:id",
+                path: "/products/category/:id",
                 element: <Categories></Categories>,
                 loader: ({ params }) =>
                     fetch(`http://localhost:5000/category/${params.id}`)
-            },
-            {
-
             }
         ]
     }

@@ -13,7 +13,6 @@ const SideNav = () => {
 
     // console.log(categories);
     
-
     return (
         <div>
             <h1 className="text-2xl my-7">Category</h1>

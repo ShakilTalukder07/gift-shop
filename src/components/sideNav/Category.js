@@ -7,7 +7,7 @@ const Category = ({ category }) => {
 
     return (
         <div>
-            <Link to={`/category/${id}`}>
+            <Link to={`/products/category/${id}`}>
                 <div className="my-4 bg-white rounded py-3 px-4">{name}</div>
             </Link>
         </div>
