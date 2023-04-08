@@ -1,21 +1,27 @@
 import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import { Outlet } from 'react-router-dom';
 import SideNav from '../components/sideNav/SideNav';
+import { Outlet } from 'react-router-dom';
 
 const ProductLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <main className="main-container">
-                <div className="main-element">
+            <div>
+                <div className='bg-[#ECACAB] py-14'>
+                    <h1 className='text-3xl text-white text-center font-semibold'>PRODUCTS</h1>
+                    <p className='text-white text-center mt-2'>Home / Products</p>
+                </div>
+            </div>
+            <div className='flex'>
+                <div>
                     <SideNav></SideNav>
                 </div>
-                <div className="sidenav lg:block hidden">
-                    <Outlet />
+                <div>
+                    <Outlet></Outlet>
                 </div>
-            </main>
+            </div>
             <Footer></Footer>
         </div>
     );

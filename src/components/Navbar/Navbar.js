@@ -44,7 +44,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <input type="text" placeholder="Search" className="input input-bordered" />
+                    <input type="text" placeholder="Search" className="input input-bordered hidden md:block lg:block" />
                     <Link className='bg-white text-black px-3 py-2 mx-3 rounded-3xl'>LogIn</Link>
                 </div>
             </div>

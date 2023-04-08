@@ -18,7 +18,7 @@ const Footer = () => {
                                     </div>
                                     <div className="flex items-center gap-3">
                                         <FaEnvelope size={20} />
-                                        <span>mirsarai, chittagong</span>
+                                        <span>gift@shop.com</span>
                                     </div>
                                     <div className="flex items-center gap-3">
                                         <FaPhone size={20} />
@@ -33,7 +33,7 @@ const Footer = () => {
                                     <li> <Link to="https://www.instagram.com" target="_blank" > <FaInstagram size={24} /> </Link> </li>
                                     <li> <Link to="https://twitter.com" target='_blank' ><FaTwitter size={24} /></Link> </li>
                                 </ul>
-                                <p className='text-xs mt-3'>Copyright &copy; 2023 event.</p>
+                                <p className='text-xs mt-3'>Copyright &copy; 2023 gift-shop.</p>
                             </div>
                         </div>
                         <div className=''>

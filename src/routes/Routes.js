@@ -4,9 +4,9 @@ import ErrorElement from "../components/ErrorElement/ErrorElement";
 import Home from "../pages/Home/Home/Home";
 import Contact from "../pages/contact/Contact";
 import AboutUs from "../pages/about/AboutUs";
-import Products from "../pages/products/Products";
 import ProductLayout from "../Layout/ProductLayout";
 import Categories from "../pages/categories/Categories";
+
 
 export const router = createBrowserRouter([
     {
@@ -37,7 +37,10 @@ export const router = createBrowserRouter([
                 path: "category/:id",
                 element: <Categories></Categories>,
                 loader: ({ params }) =>
-                    fetch(`http://localhost:5000/productsCategory/${params.id}`)
+                    fetch(`http://localhost:5000/category/${params.id}`)
+            },
+            {
+
             }
         ]
     }
