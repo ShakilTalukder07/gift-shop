@@ -14,8 +14,8 @@ const SideNav = () => {
     // console.log(categories);
     
     return (
-        <div>
-            <h1 className="text-2xl my-7">Category</h1>
+        <div className='mx-10'>
+            <h1 className="text-2xl my-7 underline">Category</h1>
             <div className="bg-orange-100 p-3 h-120">
                 {categories.map((category) => (
                     <Category

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleProduct = ({ product }) => {
+const Product = ({ product }) => {
 
     const { image_url, price, title, details, rating } = product
 
@@ -15,4 +15,4 @@ const SingleProduct = ({ product }) => {
     );
 };
 
-export default SingleProduct;
+export default Product;

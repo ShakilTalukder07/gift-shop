@@ -6,6 +6,7 @@ import Contact from "../pages/contact/Contact";
 import AboutUs from "../pages/about/AboutUs";
 import ProductLayout from "../Layout/ProductLayout";
 import Categories from "../pages/categories/Categories";
+import Products from "../pages/Products/Products";
 
 
 export const router = createBrowserRouter([
@@ -33,10 +34,11 @@ export const router = createBrowserRouter([
         element: <ProductLayout></ProductLayout>,
         errorElement: <ErrorElement></ErrorElement>,
         children: [
-            // {
-            //     path: "/products",
-            //     element: <AboutUs></AboutUs>,
-            // },
+            {
+                path: "/products",
+                element: <Products></Products>,
+                // loader: fetch("http://localhost:5000/products")
+            },
             {
                 path: "/products/category/:id",
                 element: <Categories></Categories>,
