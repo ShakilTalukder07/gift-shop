@@ -25,7 +25,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl text-white">GiftShop</Link>
+                    <Link className=" text-2xl font-bold text-white">GiftShop</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <input type="text" placeholder="Search" className="input input-bordered" />
-                    <Link className='bg-white text-black px-3 py-1 mx-3 rounded-3xl'>LogIn</Link>
+                    <Link className='bg-white text-black px-3 py-2 mx-3 rounded-3xl'>LogIn</Link>
                 </div>
             </div>
         </div>
